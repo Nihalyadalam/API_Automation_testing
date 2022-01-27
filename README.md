@@ -6,7 +6,8 @@ Testing a Book API and automating the functionality using Postman
 - Install postman on your local machine.
 - Install NPM and node.js on your local machine.
 - Open Node.js command prompt and execute ``` $ npm install -g newman ```
-- Load the json files using the command ```newman run Books_API_postman_collection.json --globals workspace.postman_globals.json``` to generate the test report containing all the Endpoints (jobs) of an API.
+- Load the json files using the command 
+  ```$ newman run Books_API_postman_collection.json --globals workspace.postman_globals.json``` to generate the test report containing all the Endpoints (jobs) of an API.
 
 
 ![image](https://user-images.githubusercontent.com/18449111/151284388-6612e9c6-2410-47f8-9458-c7438b258217.png)
