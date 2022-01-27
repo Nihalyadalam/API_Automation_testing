@@ -1,7 +1,14 @@
 # API_Automation_testing
 Testing a Book API and automating the functionality using Postman   
 
-# Simple Books API #
+# Running the Automated Books API #
+
+- Install postman on your local machine.
+- Install NPM and node.js on your local machine.
+- Open Node.js command prompt and execute ``` $ npm install -g newman ```
+- Load the json files using the command ```newman run Books_API_postman_collection.json --globals workspace.postman_globals.json``` to generate the test report containing all the Endpoints (jobs) of an API.
+
+# Books API #
 
 This API allows you to reserve a book.
 
@@ -129,3 +136,8 @@ The response body will contain the access token.
 **Possible errors**
 
 Status code 409 - "API client already registered." Try changing the values for `clientEmail` and `clientName` to something else.
+
+
+
+
+
