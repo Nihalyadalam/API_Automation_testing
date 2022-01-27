@@ -1,7 +1,7 @@
-# API_Automation_testing
+# API_Automation_testing using Postman
 Testing a Book API and automating the functionality using Postman   
 
-# Running the Automated Books API #
+## Steps to execute the test report containing automated tests of Book API ##
 
 - Install postman on your local machine.
 - Install NPM and node.js on your local machine.
